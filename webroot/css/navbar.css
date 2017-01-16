@@ -1,0 +1,98 @@
+#adminbar {
+  background-color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#adminbar div {
+	width: 960px;
+	margin: 0 auto;
+	padding: 7px;
+	color: #ccc;
+	text-align: right;
+	font-size: 0.9em;
+	font-variant: small-caps;
+}
+
+#adminbar a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#navbar {
+  float: left;
+  margin-top: 2em;
+}
+
+.navbar{}
+
+.navbar ul {
+  list-style: none; 
+  margin: 0; 
+  padding: 0;
+}
+ 
+.navbar li {
+	font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  margin-right: 0.5em;
+  border: 1px solid #74a6fa;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+	border-radius: 1em;
+  background-color: #fff;
+  color: #333;
+}
+ 
+.navbar a {
+  display: block;
+  padding: 0.2em 1em;
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap; 
+}
+
+.navbar li:hover {
+  color: #182641;
+} 
+ 
+.navbar li.selected-parent,
+.navbar li.is-parent,  
+.navbar li.selected {
+  background-color: #182641;
+  color: white;
+  padding: 0 0.25em; 
+}
+
+
+/* For use with submenues */
+.navbar ul ul {
+  background-color: #fff; 
+  padding: 8px; 
+  position: absolute; 
+  left: -9999px; 
+  z-index: 2;
+}
+ 
+.navbar li li {
+  border-top: none;  
+  border-left: 4px solid transparent;  
+}
+
+.navbar li:hover ul {
+  left: 0;
+}
+ 
+.navbar li li:hover {
+  color: #666; 
+  border-color: #666;
+}
+
+.navbar li li.selected {
+  color: #22f; 
+  border-color: #22f;
+  padding: 0 0.25em;
+}
+
+.navbar li .italic {
+  font-style: italic;
+}

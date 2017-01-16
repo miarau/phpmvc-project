@@ -1,0 +1,35 @@
+/**
+ * Style for forms
+ */
+
+label {
+  font-size: smaller;
+}
+
+input[type=text],
+input[type=password] {
+  font-size: 1.2em;
+  width: 500px;
+}
+
+input[type=submit],
+input[type=reset] {
+  font-size: 1.2em;
+}
+
+textarea {
+  font-size: 1.2em;
+  width: 500px;
+  min-height: 200px;
+}
+
+p.buttons {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+} 
+
+.validation-message {
+    margin-top: 4px;
+    list-style-type: none;
+    color: red;
+}

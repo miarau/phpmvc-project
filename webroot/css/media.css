@@ -1,0 +1,65 @@
+@media (max-width: 768px) {
+  #adminbar,
+  #header,
+  #navbar,
+  #main,
+  #sidebar,
+  #footer {
+    display: block;
+    float: left;
+    width: 98.958333333333%;
+    margin: 0 0.52083333333333%;
+    margin-bottom: 22px;
+  }
+  .sitetitle {
+    position: relative;
+    font-size: 1em;
+    float: left;
+    margin-left: 10px;
+    margin-top: 55px;
+  }
+  .siteslogan {
+    display: none;
+  }
+ 
+}
+@media (max-width: 479px) {
+
+  #adminbar>div {
+  width: 100%;
+  margin: 0 1em 0 auto;
+  padding: 7px;
+  color: #ccc;
+  text-align: right;
+  font-size: 14px;
+  font-variant: small-caps;
+}
+
+  #header {
+	position: relative;
+	margin-bottom: 0px;
+	margin-top: 0px;
+  }
+  .sitetitle {
+    position: absolute;
+    font-family: fascinate;
+    font-size: 4em;
+    float: left;
+    margin-left: 20px;
+    margin-top: -10px;
+  }
+
+  #adminbar,
+  #navbar,
+  #main,
+  #sidebar,
+  #footer {
+	display: inline;
+	width: 98.958333333333%;
+	margin: 0 0.52083333333333%;
+	margin-bottom: 0px;
+  }
+body {
+}
+
+}

@@ -1,0 +1,166 @@
+@import url(normalize.css);
+@import url(navbar.css);
+@import url(fa.css);
+@import url(form.css);
+@import url(questions.css);
+@import url(users.css);
+@import url(media.css);
+
+/**
+ * Structure
+ */
+html {
+  font: 100.01%/1.375 'Open Sans', sans-serif;
+}
+body {
+	background-image: url(../img/bang.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+  	color: #333;
+  	background-color: #182641;
+  	overflow-y: scroll;
+}
+h1 {
+  	text-transform: lowercase;
+	color: #182641;
+	font-size: 2.375em;
+	line-height: 1.1578947368421;
+	font-weight: normal;
+	font-variant: small-caps;
+}
+h2 {
+	font-variant: small-caps;
+  	font-size: 1.875em;
+  	line-height: 1.4666666666667;
+  	font-weight: normal;
+}
+
+/**
+ * Layout for header
+ */
+#header {
+  background-color: #182641;
+}
+
+#header > div {
+	height: 100px;
+	width: 940px;
+	margin: 0 auto 2em;
+	color: #fff;
+}
+
+.sitetitle {
+	display: block;
+	float: left;
+	padding-top: 0.5em;
+	padding-right: 4em;
+	font-size: 2.6em;
+	font-style: normal;
+	font-weight: 400;
+	font-family: 'fascinate', sans-serif;
+}
+
+.sitetitle a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  background-color:#FFF;
+  margin: 0 auto;
+  width: 980px; 
+  padding: 1.5em;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+ border-radius: 1em;
+  box-shadow: 1em 1em 1.5em #182641;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+  width: 100%;
+}
+
+/**
+ * Layout for main
+ */
+#sidebar {
+  float: right;
+  width: 30%;
+  border-left: 1px solid #182641;
+  padding-left: 2.5em;
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top:2em;
+  border-top: 1px solid #182641;
+  color: #182641;
+  padding-top: 5px;
+}
+
+.sitefooter {
+  color: #666;
+  font-size: 0.7em;
+}
+
+
+/**
+ * For articles
+ */
+.article1 {
+  width: 700px;
+  border-right: 1px solid #182641;
+  padding-right: 1em;
+}
+
+.article1 h1,
+.article1 h2 {
+  border-bottom: 1px solid #182641;
+}
+
+.clearboth:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+
+.clearleft:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: left;
+    height: 0;
+}
+
+.clearright:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: right;
+    height: 0;
+}
+
+.first {
+  margin-top: 2em;
+
+}
+
+#content{
+  margin-top: 1em;
+}

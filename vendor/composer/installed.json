@@ -1,0 +1,141 @@
+[
+    {
+        "name": "mos/cdatabase",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mosbth/cdatabase.git",
+            "reference": "0504c0ccad80783674a36bd701d884d6bbadbd55"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mosbth/cdatabase/zipball/0504c0ccad80783674a36bd701d884d6bbadbd55",
+            "reference": "0504c0ccad80783674a36bd701d884d6bbadbd55",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2016-02-03 15:52:43",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Mos\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "me@mikaelroos.se",
+                "homepage": "http://mikaelroos.se",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP classes for database handling upon PDO",
+        "homepage": "http://dbwebb.se",
+        "keywords": [
+            "education",
+            "framework",
+            "micro",
+            "module",
+            "mvc"
+        ]
+    },
+    {
+        "name": "mos/cform",
+        "version": "v2.x-dev",
+        "version_normalized": "2.9999999.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mosbth/cform.git",
+            "reference": "bca061e8bf8fc56beb85813c7f2c625a3f3f4f2c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mosbth/cform/zipball/bca061e8bf8fc56beb85813c7f2c625a3f3f4f2c",
+            "reference": "bca061e8bf8fc56beb85813c7f2c625a3f3f4f2c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2016-10-18 16:06:55",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Mos\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "me@mikaelroos.se",
+                "homepage": "http://mikaelroos.se",
+                "role": "Developer"
+            }
+        ],
+        "description": "Classes for HTML Forms",
+        "homepage": "http://dbwebb.se/",
+        "keywords": [
+            "Forms",
+            "education",
+            "html"
+        ]
+    },
+    {
+        "name": "phpmvc/comment",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mosbth/phpmvc-comment.git",
+            "reference": "ea5c43e8bb3f723d6fb69c892500d26c7390eb37"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mosbth/phpmvc-comment/zipball/ea5c43e8bb3f723d6fb69c892500d26c7390eb37",
+            "reference": "ea5c43e8bb3f723d6fb69c892500d26c7390eb37",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2014-04-02 12:59:02",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Phpmvc\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "me@mikaelroos.se",
+                "homepage": "http://mikaelroos.se",
+                "role": "Developer"
+            }
+        ],
+        "description": "Various base classes for comments management",
+        "homepage": "http://dbwebb.se",
+        "keywords": [
+            "comments",
+            "education"
+        ]
+    }
+]
